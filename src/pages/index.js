@@ -18,10 +18,9 @@ export default function Home() {
           </div>
 
           <div className={styles.menuItems}>
-            <button>About</button>
-            <button>Team</button>
-            <button>Gallery</button>
-            <Button as="a" variant="primary">Test</Button>
+            <Button as="a" variant="primary">About</Button>
+            <Button as="a" variant="primary">Team</Button>
+            <Button as="a" variant="primary">Gallery</Button>
           </div>
         </div>
       </header>
@@ -31,11 +30,11 @@ export default function Home() {
           <a>Welcome to Old D'Hanis</a>
         </h1>
         <div className={styles.downLoad}>
-          <button>Download on steam</button>
+          <Button>Download on steam</Button>
         </div>
       </main>
 
-      <footer>
+      <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -47,14 +46,7 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
+
         footer {
           width: 100%;
           height: 100px;
