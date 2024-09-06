@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
             <button>About</button>
             <button>Team</button>
             <button>Gallery</button>
+            <Button as="a" variant="primary">Test</Button>
           </div>
         </div>
       </header>
