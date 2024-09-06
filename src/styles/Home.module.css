@@ -93,13 +93,12 @@
 
 .homeLogo{
   float: left;
+  margin-left: 20px;
+  margin-top: -5px;
 }
 
 .menuItems{ 
   float: right;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .imageBackground{

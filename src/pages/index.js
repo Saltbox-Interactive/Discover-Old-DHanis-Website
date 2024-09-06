@@ -27,6 +27,9 @@ export default function Home() {
         <h1 className={styles.title}>
           <a>Welcome to Old D'Hanis</a>
         </h1>
+        <div className={styles.downLoad}>
+          <button>Download on steam</button>
+        </div>
       </main>
 
       <footer>
@@ -67,21 +70,7 @@ export default function Home() {
           text-decoration: none;
           color: inherit;
         }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family:
-            Menlo,
-            Monaco,
-            Lucida Console,
-            Liberation Mono,
-            DejaVu Sans Mono,
-            Bitstream Vera Sans Mono,
-            Courier New,
-            monospace;
-        }
+        
       `}</style>
 
       <style jsx global>{`
@@ -101,9 +90,6 @@ export default function Home() {
             Droid Sans,
             Helvetica Neue,
             sans-serif;
-        }
-        * {
-          box-sizing: border-box;
         }
       `}</style>
     </div>
