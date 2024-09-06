@@ -1,6 +1,7 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,6 +84,28 @@
 .logo {
   height: 1em;
 }
+
+.header{
+  background-color: #EAE1D9;
+  width: 100vw;
+  height: 75px;
+}
+
+.homeLogo{
+  float: left;
+}
+
+.menuItems{ 
+  float: right;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageBackground{
+  background-color: beige;
+}
+
 
 @media (max-width: 600px) {
   .grid {
