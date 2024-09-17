@@ -1,0 +1,51 @@
+@import '../styles/theme-variables.scss'; // Import only variables, no global selectors
+
+.header{
+  padding: 0;
+  margin: 0;
+  background-color:  theme-colors($light-theme, "primary-container-light"); 
+  width: 100vw;
+  height: 75px;
+  position: fixed;
+  // position: absolute;
+  left: -17px;
+}
+
+.homeLogo{
+  float: left;
+  margin-top: 5px;
+  color: theme-colors($light-theme, "primary"); 
+  left: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 36px;
+}
+
+.homeLogo:hover {
+  text-decoration: underline;
+}
+
+.menuItems{ 
+  float: right;
+  padding-right: 25px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding-top: 20px;
+  /* height: 50px; */
+  /* width: 200px; */
+}
+
+.navLink {
+  color: theme-colors($light-theme, "primary"); 
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+// html {
+//   scroll-behavior: smooth;
+// }

@@ -6,27 +6,16 @@ import Gallery from './gallery';
 import Image from "next/image";
 import styles from '../styles/home.module.scss';
 import TestComponent from './test';
+import Navbar from '../components/Navbar';
+
 
 export default function Home() {
   return (
     <div className={styles.pageFormatting}>
-      <img className={styles.backgroundImg} src="/assets/homeWallpaper.jpg"/>
+      {/* <img className={styles.backgroundImg} src="/assets/homeWallpaper.jpg"/> */}
+      <Navbar />
 
-      <header>
-        <div className={styles.header}>
-          <div className={styles.homeLogo}>
-            <h1>Old D'Hanis</h1>
-          </div>
-
-          <div className={styles.menuItemsContainer}>
-            <Button variant="light" className={styles.menuItems} as="a">About</Button>
-            <Button variant="light" className={styles.menuItems} as="a">Team</Button>
-            <Button variant="light" className={styles.menuItems} as="a">Gallery</Button>
-          </div>
-        </div>
-      </header>
-
-      <div className={styles.container}> 
+      <div className={styles.container} id='home'> 
         <Head>
           <title>Explore Old D'Hanis</title>
           <link rel="icon" href="/favicon.ico" />
@@ -36,14 +25,20 @@ export default function Home() {
             <a>Welcome to Old D'Hanis</a>
           </h1>
           <div className={styles.download}>
-            <Button variant="light" size='lg'> Download on steam </Button>
+            <Button variant="primary" size='lg'> Download on steam </Button>
           </div>
         </main>
       </div>
-
-      <About />
-      <Team />
-      <Gallery />
+      
+      <section id='about'>
+        <About />
+      </section>
+      <section id='team'>
+        <Team />  
+      </section>
+      <section id='gallery'>
+        <Gallery />
+      </section>
       {/* <TestComponent />  */}
 
       <footer className={styles.footer}></footer>
