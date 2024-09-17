@@ -1,16 +1,14 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
 import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
 import About from './about';
 import Team from './team';
 import Gallery from './gallery';
 import Image from "next/image";
+import styles from '../styles/home.module.scss';
+import TestComponent from './test';
 
 export default function Home() {
   return (
-    // This will be overarching container
-    
     <div className={styles.pageFormatting}>
       <img className={styles.backgroundImg} src="/assets/homeWallpaper.jpg"/>
 
@@ -34,7 +32,6 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
-         
           <h1 className={styles.title}>
             <a>Welcome to Old D'Hanis</a>
           </h1>
@@ -44,13 +41,12 @@ export default function Home() {
         </main>
       </div>
 
-      <About></About>
-      <Team></Team>
-      <Gallery></Gallery>
+      <About />
+      <Team />
+      <Gallery />
+      {/* <TestComponent />  */}
 
-      <footer className={styles.footer}>
-        
-      </footer>
+      <footer className={styles.footer}></footer>
     </div>
   );
 }

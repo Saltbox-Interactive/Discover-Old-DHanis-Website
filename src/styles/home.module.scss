@@ -1,3 +1,5 @@
+@import './theme-variables.scss'; // Import only variables, no global selectors
+
 .container {
   min-height: 100vh;
   padding: 0;
@@ -53,12 +55,13 @@
 }
 
 .header{
-  /* background-color: rgba(255, 255, 255, 0.781); */
+  // background-color:  theme-colors($light-theme, "primary"); 
   width: 100vw;
   height: 75px;
   top: 0px;
   position: fixed;
   left: 0;
+
 }
 
 .homeLogo{

@@ -1,3 +1,5 @@
+@import './theme-variables.scss';
+
 .container {
     min-height: 100vh;
     padding: 0;
@@ -5,6 +7,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(241, 241, 150);
   }
+
+.title {
+  color:  theme-colors($light-theme, "primary"); 
+}
   
