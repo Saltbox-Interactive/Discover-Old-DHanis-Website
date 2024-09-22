@@ -1,0 +1,15 @@
+@import '/styles/theme-variables.scss';
+
+.container {
+    background-color:  theme-colors($light-theme, "primary-container");
+}
+
+.imageContainer{
+    float: left;
+    /* background-color: rgb(227, 227, 227); */
+}
+
+.textContainer{
+    float: right;
+    /* background-color: brown; */
+}
