@@ -4,7 +4,7 @@ import InfoBox from '../components/InfoBox';
 export default function Team(){
     return ( 
         <div className={styles.container}>
-            <h1> The Team </h1>
+            <h1> The Team (WIP, will finish styling later)</h1>
             <InfoBox
                 imageSrc='/assets/potato_placeholder.png'
                 altText='profile pic'
