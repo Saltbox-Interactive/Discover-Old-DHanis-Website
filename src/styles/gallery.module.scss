@@ -1,0 +1,33 @@
+.galleryContainer{
+  min-height: 100vh;
+  min-width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.galleryHeader{
+  padding-bottom: 5rem;
+  margin-top: -8rem;
+}
+
+.gallery {
+  
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  
+  .galleryItem {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

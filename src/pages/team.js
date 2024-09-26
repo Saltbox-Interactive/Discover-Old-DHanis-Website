@@ -1,4 +1,4 @@
-import styles from '../styles/team.module.css';
+import styles from '../styles/team.module.scss';
 import InfoBox from '../components/InfoBox';
 
 export default function Team(){
