@@ -10,10 +10,10 @@ const Navbar = () => {
           <Link href="#home" className={styles.homeLogo}>Old D'Hanis</Link>
         </li>
         <li className={styles.menuItems}>
-          <Link href="#gallery" className={styles.navLink}>Gallery</Link>
+          <Link href="#team" className={styles.navLink}>Team</Link>
         </li>
         <li className={styles.menuItems}>
-          <Link href="#team" className={styles.navLink}>Team</Link>
+          <Link href="#gallery" className={styles.navLink}>Gallery</Link>
         </li>
         <li className={styles.menuItems}>
           <Link href="#about" className={styles.navLink}>About</Link>

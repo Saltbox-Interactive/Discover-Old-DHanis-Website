@@ -1,15 +1,49 @@
 @import '/styles/theme-variables.scss';
 
 .container {
-    background-color:  theme-colors($light-theme, "primary-container");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75vw;
+    margin: 0 auto;
+    padding: 1rem; 
+    // background-color: theme-colors($light-theme, "primary-container");
+    border-radius: 8px;
+    margin-top: 3rem;
 }
 
-.imageContainer{
-    float: left;
-    /* background-color: rgb(227, 227, 227); */
+.imageContainer {
+    flex: 0 1 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: -10rem;
+    
+    img {
+        border: 3px solid #000; 
+        border-radius: 50%; 
+    }
+}
+.textContainer {
+    flex: 0 1 100%;
+    text-align: left;
+    margin-left: -10rem;
+    margin-top: -7rem;
+    padding: 1rem;
+    background-color: white;
+    height: 100%;
+    border-radius: 8px;
 }
 
-.textContainer{
-    float: right;
-    /* background-color: brown; */
+.title{
+    font-size: 3rem;
+}
+
+.role {
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+
+.description{
+    font-size: 1.2rem;
 }

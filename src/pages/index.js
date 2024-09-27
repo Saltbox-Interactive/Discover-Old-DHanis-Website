@@ -33,12 +33,13 @@ export default function Home() {
       <section id='about'>
         <About />
       </section>
-      <section id='team'>
-        <Team />  
-      </section>
       <section id='gallery'>
         <Gallery />
       </section>
+      <section id='team'>
+        <Team />  
+      </section>
+
       {/* <TestComponent />  */}
 
       <footer className={styles.footer}></footer>

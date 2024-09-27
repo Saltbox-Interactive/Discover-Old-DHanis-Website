@@ -1,4 +1,5 @@
 import styles from '../styles/about.module.scss';
+import Button from 'react-bootstrap/esm/Button';
 
 export default function About(){
     return ( 
@@ -13,6 +14,7 @@ export default function About(){
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     </p>
                 </div>
+                <Button className={styles.button} size='lg'> View More Resources </Button>
             </div>
            
             <div className={styles.aboutImage}>

@@ -3,6 +3,7 @@
 .container {
     height: 100vh;
     padding: 0;
+    margin-top: -4rem;
     // display: flex;
     // flex-direction: column;
     // justify-content: center;
@@ -11,6 +12,11 @@
 
 .title {
   color:  theme-colors($light-theme, "secondary"); 
+  font-size: 3.6rem;
+}
+
+.button{
+  margin-top: 3rem;
 }
 
 .aboutContainer{
@@ -18,19 +24,19 @@
   position: absolute;
   left: 125px;
   margin-top: 200px;
-  width: 500px;
+  width: 40rem;
   text-align: center;
-  text-decoration: underline;
+  // text-decoration: underline;
   z-index: -100;
 }
 
 .aboutText{
   float: left;
-  margin-top: 50px;
-  width: 500px;
+  margin-top: 2rem;
   // background-color:aqua;
   text-align: center;
   color: theme-colors($light-theme, "primary");
+  font-size: 1.2rem;
 
 }
 .aboutImage{
@@ -40,5 +46,6 @@
   margin-right: 70px;
   margin-top: 150px;
   background-color: theme-colors($light-theme, "primary-container");
+  border-radius: 4%;
 }
   
