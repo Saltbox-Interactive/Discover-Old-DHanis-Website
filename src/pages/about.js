@@ -1,5 +1,5 @@
 import styles from '../styles/about.module.scss';
-import Button from 'react-bootstrap/esm/Button';
+import Button from 'react-bootstrap/Button';
 
 export default function About(){
     return ( 
