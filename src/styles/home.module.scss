@@ -8,8 +8,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:  theme-colors($light-theme, "primary-container");
+  // background-color:  theme-colors($light-theme, "primary-container");
   // background-color: white;
+}
+
+.video {
+  width: 99vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -10;
+  // background-color: #191922;
 }
 
 .pageFormatting{

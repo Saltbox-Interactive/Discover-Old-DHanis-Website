@@ -7,6 +7,7 @@ import Image from "next/image";
 import styles from '../styles/home.module.scss';
 import TestComponent from './test';
 import Navbar from '../components/Navbar';
+import ReactPlayer from 'react-player';
 
 
 export default function Home() {
@@ -16,6 +17,22 @@ export default function Home() {
       <Navbar />
 
       <div className={styles.container} id='home'> 
+        <div className={styles.video}>
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=G5RpJwCJDqc"
+          playing={true}
+          loop={true}
+          muted={true}
+          width="100%"
+          height="100%"
+          className={styles.video}
+          config={{
+            youtube: {
+              playerVars: { controls: 0, showinfo: 0, modestbranding: 1 },
+            },
+          }}
+        />
+        </div>
         <Head>
           <title>Explore Old D'Hanis</title>
           <link rel="icon" href="/favicon.ico" />

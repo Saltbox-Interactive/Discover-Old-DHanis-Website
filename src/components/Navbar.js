@@ -1,10 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link'; // Import Next.js's Link
 import styles from './Navbar.module.scss';
 
 const Navbar = () => {
+
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    // Cleanup function to remove the event listener
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className={styles.header}>
+    <nav className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
+   {/* <nav className={`${styles.header}`}>  */}
       <ul>
         <li className={styles.homeLogo}>
           <Link href="#home" className={styles.homeLogo}>Old D'Hanis</Link>
@@ -26,14 +46,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-
-        // <div className={styles.header}>
-        //   <div className={styles.homeLogo}>
-        //     <h1>Old D'Hanis</h1>
-        //   </div>
-        //   <div className={styles.menuItemsContainer}>
-        //     <Button variant="primary" className={styles.menuItems} as="a">Gallery</Button>
-        //     <Button variant="primary" className={styles.menuItems} as="a">Team</Button>
-        //     <Button variant="primary" className={styles.menuItems} as="a">About</Button>
-        //   </div>
-        // </div>
