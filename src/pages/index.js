@@ -8,6 +8,7 @@ import styles from '../styles/home.module.scss';
 import TestComponent from './test';
 import Navbar from '../components/Navbar';
 import ReactPlayer from 'react-player';
+import Footer from '../components/Footer'
 
 
 export default function Home() {
@@ -56,13 +57,11 @@ export default function Home() {
       <section id='team'>
         <Team />  
       </section>
+      <Footer/>
 
       {/* <TestComponent />  */}
-
-      {/* <footer className={styles.footer}>
-        
-      </footer> */}
-      <Footer/>
+      
+      
     </div>
   );
 }
