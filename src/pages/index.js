@@ -59,9 +59,10 @@ export default function Home() {
 
       {/* <TestComponent />  */}
 
-      <footer className={styles.footer}>
-        <h1> Footer here </h1>
-      </footer>
+      {/* <footer className={styles.footer}>
+        
+      </footer> */}
+      <Footer/>
     </div>
   );
 }
