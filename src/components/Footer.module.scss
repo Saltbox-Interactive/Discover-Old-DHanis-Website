@@ -1,0 +1,55 @@
+@import '/styles/theme-variables.scss';
+
+.footerContainer {
+    width: 99vw;
+    position: absolute;
+    right: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    height: 15rem;
+    background-color: theme-colors($light-theme, "primary-container");
+    margin-top: 3rem;
+    z-index: -10;
+}
+
+.columnFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columnFooterText {
+    flex: 1; 
+    text-align: center; 
+    margin-top: 3rem; 
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.leftColumn{
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.rightColumn{
+    text-align: right;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.footerHeader{
+    text-align: center; 
+    margin-top: 1rem;
+}
+
+.socials {
+    width: 30vw;
+    height: 7vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: theme-colors($light-theme, "secondary-container");
+    margin: auto;
+    margin-top: 1.5rem;
+}

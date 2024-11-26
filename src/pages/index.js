@@ -57,11 +57,11 @@ export default function Home() {
       <section id='team'>
         <Team />  
       </section>
-      <Footer/>
 
       {/* <TestComponent />  */}
       
-      
+      <Footer/>  
     </div>
+    
   );
 }
