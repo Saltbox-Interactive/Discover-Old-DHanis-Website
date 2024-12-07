@@ -6,8 +6,8 @@
     right: 0px;
     margin-right: 0px;
     padding-right: 0px;
-    height: 15rem;
-    background-color: theme-colors($light-theme, "primary-container");
+    height: 23.5rem;
+    background-color: theme-colors($light-theme, "secondary-container");
     margin-top: 3rem;
     z-index: -10;
 }
@@ -15,6 +15,7 @@
 .columnFooter {
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 .columnFooterText {
@@ -22,7 +23,6 @@
     text-align: center; 
     margin-top: 3rem; 
     font-size: 1.2rem;
-    margin-bottom: 0px;
     padding: 0rem 0rem 0rem 0rem;
 }
 
@@ -38,18 +38,29 @@
     margin-right: 1rem;
 }
 
-.footerHeader{
-    text-align: center; 
-    margin-top: 1rem;
+.companyIcon{
+    width: 15rem;
+    height: 15rem;
+    background-color: theme-colors($light-theme, "primary-container");
+    margin: auto;
+    margin-top: -5rem;
+    border-radius: 50%;
 }
 
 .socials {
     width: 30vw;
     height: 7vh;
     align-items: center;
-    align-content: center;
+    justify-content: center;
     text-align: center;
-    background-color: theme-colors($light-theme, "secondary-container");
+    align-content: center;
     margin: auto;
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
 }
+
+.icons {
+    margin-top: 0.5rem;
+}
+
+
+

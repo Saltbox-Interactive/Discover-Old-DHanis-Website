@@ -12,11 +12,10 @@ import Footer from '../components/Footer'
 
 
 export default function Home() {
+
   return (
     <div className={styles.pageFormatting}>
-      {/* <img className={styles.backgroundImg} src="/assets/homeWallpaper.jpg"/> */}
       <Navbar />
-
       <div className={styles.container} id='home'> 
         <div className={styles.video}>
         <ReactPlayer

@@ -2,14 +2,15 @@
   "private": true,
   "scripts": {
     "build": "set NODE_ENV=production & next build",
+    "export": "next export",
     "dev": "next dev",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d _app.tsx"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "next": "^14.2.10",
+    "next": "latest",
     "react": "18.2.0",
     "react-bootstrap": "^2.10.4",
     "react-dom": "18.2.0",
