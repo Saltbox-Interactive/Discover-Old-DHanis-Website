@@ -5,13 +5,22 @@ export default function About(){
     return ( 
         <div className={styles.container}>
             <div className={styles.aboutContainer}>
-                <h1 className={styles.title}> About Old D'Hanis</h1>
+                <h1 className={styles.title}>What is Discover Old D'Hanis?</h1>
                 <div className={styles.aboutText}>
                     <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    Discover Old D'Hanis is an educational and immersive historical experience that invites you to explore the rich and diverse history of the real-life town of D'Hanis, Texas. Step back into the 19th century and embark on a captivating journey through a meticulously recreated town, where each corner tells a story of its past inhabitants.
+                    </p>
+                    <p>
+                    In Discover Old D'Hanis, you'll traverse the streets of this historical town, uncovering the narratives of its early settlers. From the Alsatian and German migrants who founded the town in 1847 to the Black and Mexican families who made it their home following the Civil War and Mexican Revolution, the game offers a deep dive into the lives of those who shaped D'Hanis. The town is brought to life using an impressive blend of archival records, archaeological discoveries, architectural details, and oral history recordings.
+                    </p>
+                    <p>
+                    As you explore, you’ll take on the role of a historical detective. Delve into a wealth of interactive elements, including archaeological photos, field notes, and artifacts that provide insights into the town’s history. Wander through ruins and examine interactive exhibits to uncover hidden stories and solve historical puzzles based on actual events. Each piece of information you gather helps to weave together the complex tapestry of D'Hanis's past.
+                    </p>
+                    <p>
+                    The game allows you to witness the transformation of Old D'Hanis over time. From its early settlement days through various historical periods, you'll see how the town changed and developed. The meticulous research used in the game create an authentic atmosphere that immerses you in the vibrant history of this unique community.
+                    </p>
+                    <p>
+                    Discover Old D'Hanis is more than just a game; it’s an invitation to preserve and share the historical legacy of a remarkable town. Are you ready to uncover its secrets and experience the old town? The journey through Old D'Hanis awaits!
                     </p>
                 </div>
                 <Button className={styles.button} size='lg'> View More Resources </Button>

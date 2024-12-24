@@ -9,29 +9,36 @@ export default function Team(){
             <InfoBox
                 imageSrc='/assets/profile-pic-default.jpg'
                 altText='profile pic'
-                name='Michael'
-                role='Game Programmer'
+                name='Dr. Patricia Markert'
+                role='Supervisor, Researcher, Professor'
                 text='Text goes here'
             />
             <InfoBox
                 imageSrc='/assets/profile-pic-default.jpg'
                 altText='profile pic'
-                name='Terry'
-                role='Web Designer'
+                name='Michael Salton'
+                role='Programming, Enviroment Design'
                 text='Text goes here'
             />
             <InfoBox
                 imageSrc='/assets/profile-pic-default.jpg'
                 altText='profile pic'
-                name='Emily'
-                role='Art, Graphics and Marketing'
+                name='Emily Grant'
+                role='Art, Modelling'
                 text='Text goes here'
             />
             <InfoBox
                 imageSrc='/assets/profile-pic-default.jpg'
                 altText='profile pic'
-                name='Trish'
-                role='Prof'
+                name='Hiu Lee Joyce'
+                role='Music, Sound'
+                text='Text goes here'
+            />
+            <InfoBox
+                imageSrc='/assets/profile-pic-default.jpg'
+                altText='profile pic'
+                name='Terry Yu'
+                role='Web'
                 text='Text goes here'
             />
         </div>

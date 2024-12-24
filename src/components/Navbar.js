@@ -27,7 +27,7 @@ const Navbar = () => {
    {/* <nav className={`${styles.header}`}>  */}
       <ul>
         <li className={styles.homeLogo}>
-          <Link href="#home" className={styles.homeLogo}>Old D'Hanis</Link>
+          <Link href="#home" className={styles.homeLogo}>Discover Old D'Hanis</Link>
         </li>
         <li className={styles.menuItems}>
           <Link href="#team" className={styles.navLink}>Team</Link>

@@ -10,39 +10,50 @@ import Navbar from '../components/Navbar';
 import ReactPlayer from 'react-player';
 import Footer from '../components/Footer'
 
-
 export default function Home() {
-
   return (
     <div className={styles.pageFormatting}>
       <Navbar />
       <div className={styles.container} id='home'> 
         <div className={styles.video}>
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=G5RpJwCJDqc"
-          playing={true}
-          loop={true}
-          muted={true}
-          width="100%"
-          height="100%"
-          className={styles.video}
-          config={{
-            youtube: {
-              playerVars: { controls: 0, showinfo: 0, modestbranding: 1 },
-            },
-          }}
-        />
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=674wW55lxek"
+            playing={true}
+            loop={true}
+            muted={true}
+            width="100%"
+            height="100%"
+            className={styles.video}
+            config={{
+              youtube: {
+                playerVars: {
+                  controls: 0, 
+                  modestbranding: 1, 
+                  showinfo: 0, 
+                  rel: 0, 
+                  disablekb: 1,
+                  vq: 'hd1080',
+                },
+              },
+            }}
+          />
         </div>
         <Head>
-          <title>Explore Old D'Hanis</title>
+          <title>Discover Old D'Hanis</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
           <h1 className={styles.title}>
-            <a>Welcome to Old D'Hanis</a>
+            <a>Discover. Learn. Preserve.</a>
           </h1>
           <div className={styles.download}>
-            <Button variant="primary" size='lg'> Download on steam </Button>
+            <a 
+              href="https://store.steampowered.com/app/3140860/Discover_Old_DHanis/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button variant="primary" size='lg'>Play on Steam</Button>
+            </a>
           </div>
         </main>
       </div>
@@ -59,8 +70,7 @@ export default function Home() {
 
       {/* <TestComponent />  */}
       
-      <Footer/>  
+      <Footer />  
     </div>
-    
   );
 }

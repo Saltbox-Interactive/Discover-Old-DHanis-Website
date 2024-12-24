@@ -11,22 +11,37 @@ const Footer = () => {
                 {/* Icon/Logo here */}
                
                 <div className={styles.socials}> 
-                    <h3>Check us out on </h3>
+                    <h3>Learn more about our project</h3>
                     <div className={styles.icons}>
                         <Image 
-                            src='/assets/Steam_icon_logo.svg.png'
-                            alt='Gallery image 3' 
-                            width={35}
-                            height={35}
+                        src='/assets/steam.svg'
+                        alt='Steam logo' 
+                        width={50}
+                        height={50}
                         />
-                        
-                        {/* Add more socials/icons as nessecary */}
+                        <Image 
+                        src='/assets/youtube.svg'
+                        alt='YouTube logo' 
+                        width={50}
+                        height={50}
+                        />
+                        <Image 
+                        src='/assets/tiktok.svg'
+                        alt='TikTok logo' 
+                        width={50}
+                        height={50}
+                        />
+                        <Image 
+                        src='/assets/linkedin.svg'
+                        alt='LinkedIn logo' 
+                        width={50}
+                        height={50}
+                        />
                     </div>
                 </div>
-                
                 <div className={styles.columnFooter}>
                     <div className={styles.columnFooterText}>
-                       <h3 className={styles.leftColumn}> Proudly made by SaltBox Interactive</h3>
+                       <h3 className={styles.leftColumn}> Proudly made by Saltbox Interactive</h3>
                     </div>
                     <h3 className={styles.columnFooterText}> © Saltbox Interactive, 2024. All Rights Reserved.</h3>
                     <div className={styles.columnFooterText}>

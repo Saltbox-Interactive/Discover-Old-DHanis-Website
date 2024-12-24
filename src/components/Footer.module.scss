@@ -1,12 +1,12 @@
 @import '/styles/theme-variables.scss';
 
 .footerContainer {
-    width: 99vw;
+    width: 100vw;
     position: absolute;
     right: 0px;
     margin-right: 0px;
     padding-right: 0px;
-    height: 23.5rem;
+    height: 26rem;
     background-color: theme-colors($light-theme, "secondary-container");
     margin-top: 3rem;
     z-index: -10;
@@ -26,19 +26,19 @@
     padding: 0rem 0rem 0rem 0rem;
 }
 
-.leftColumn{
+.leftColumn {
     text-align: left;
     font-size: 1.2rem;
     margin-left: 1rem;
 }
 
-.rightColumn{
+.rightColumn {
     text-align: right;
     font-size: 1.2rem;
     margin-right: 1rem;
 }
 
-.companyIcon{
+.companyIcon {
     width: 15rem;
     height: 15rem;
     background-color: theme-colors($light-theme, "primary-container");
@@ -49,18 +49,24 @@
 
 .socials {
     width: 30vw;
-    height: 7vh;
+    height: auto; /* Adjusts to icon size */
     align-items: center;
     justify-content: center;
     text-align: center;
-    align-content: center;
     margin: auto;
     margin-top: 3.5rem;
 }
 
 .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Spacing between icons */
     margin-top: 0.5rem;
 }
 
-
-
+.icons img {
+    width: 50px; /* Uniform width for icons */
+    height: 50px; /* Uniform height for icons */
+    display: block; /* Ensures proper alignment */
+}

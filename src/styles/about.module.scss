@@ -1,45 +1,39 @@
 @import './theme-variables.scss';
 
 .container {
-    height: 100vh;
-    padding: 0;
-    margin-top: -4rem;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-  }
-
-.title {
-  color:  theme-colors($light-theme, "secondary"); 
-  font-size: 3.6rem;
+  height: 100vh;
+  padding: 0;
+  margin-top: -4rem;
+  justify-content: flex-start;
 }
 
-.button{
+.title {
+  color: theme-colors($light-theme, "secondary");
+  font-size: 3.6rem;
+  text-align: left; /* Align title to the left */
+}
+
+.button {
   margin-top: 3rem;
 }
 
-.aboutContainer{
-  // background-color: black;
+.aboutContainer {
   position: absolute;
-  // float: left;
   left: 125px;
   margin-top: 200px;
   width: 40rem;
-  text-align: center;
-  // text-decoration: underline;
+  text-align: left; /* Align all text inside to the left */
   z-index: -100;
 }
 
-.aboutText{ 
+.aboutText {
   margin-top: 2rem;
-  // background-color:aqua;
-  text-align: center;
+  text-align: left; /* Align text paragraphs to the left */
   color: theme-colors($light-theme, "primary");
   font-size: 1.2rem;
-
 }
-.aboutImage{
+
+.aboutImage {
   float: right;
   width: 650px;
   height: 600px;
@@ -48,4 +42,3 @@
   background-color: theme-colors($light-theme, "primary-container");
   border-radius: 4%;
 }
-  
