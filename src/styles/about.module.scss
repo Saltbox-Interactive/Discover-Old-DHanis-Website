@@ -1,27 +1,53 @@
 @import './theme-variables.scss';
 
 .container {
-  height: 100vh;
+  height: 220vh;
   padding: 0;
   margin-top: -4rem;
   justify-content: flex-start;
 }
 
+.infoSection{
+  height: 20rem;
+}
+
+.floatLeft{
+  float: left;
+  width: 35vw;
+  height: 13rem;
+  margin-left: 7.5vw;
+}
+
+.floatRight{
+  float: right;
+  width: 35vw;
+  margin-right: 7.5vw;
+  height: 13rem;
+}
+
+.imageIcon{
+  height: 200px;
+  width: 300px;
+}
+
 .title {
   color: theme-colors($light-theme, "secondary");
   font-size: 3.6rem;
-  text-align: left; /* Align title to the left */
+  text-align: center;  
+  margin-top: -4rem;
+  margin-bottom: 6rem;
 }
 
 .button {
-  margin-top: 3rem;
-}
+  margin-top: -20rem;
+  margin-left: 7.5vw;
+  }
 
 .aboutContainer {
   position: absolute;
-  left: 125px;
+  left: 5vw;
   margin-top: 200px;
-  width: 40rem;
+  width: 90vw;
   text-align: left; /* Align all text inside to the left */
   z-index: -100;
 }
@@ -31,14 +57,4 @@
   text-align: left; /* Align text paragraphs to the left */
   color: theme-colors($light-theme, "primary");
   font-size: 1.2rem;
-}
-
-.aboutImage {
-  float: right;
-  width: 650px;
-  height: 600px;
-  margin-right: 70px;
-  margin-top: 150px;
-  background-color: theme-colors($light-theme, "primary-container");
-  border-radius: 4%;
 }
