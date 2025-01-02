@@ -3,11 +3,11 @@ import Button from 'react-bootstrap/Button';
 
 
 const images = [
-    { src: '/assets/potato_placeholder.png', alt: 'Gallery image 1' },
-    { src: '/assets/potato_placeholder.png', alt: 'Gallery image 2' },
-    { src: '/assets/potato_placeholder.png', alt: 'Gallery image 3' },
-    { src: '/assets/potato_placeholder.png', alt: 'Gallery image 4' },
-    { src: '/assets/potato_placeholder.png', alt: 'Gallery image 5' },
+    { src: '/assets/dod-screenshot-1.png', alt: 'Gallery image 1' },
+    { src: '/assets/dod-screenshot-2.png', alt: 'Gallery image 2' },
+    { src: '/assets/dod-screenshot-3.png', alt: 'Gallery image 3' },
+    { src: '/assets/dod-screenshot-4.png', alt: 'Gallery image 4' },
+    { src: '/assets/dod-screenshot-5.png', alt: 'Gallery image 5' },
   ];
 
 export default function About(){
@@ -77,10 +77,7 @@ export default function About(){
                         </div>
                     </div>
                 </div>
-                <Button className={styles.button} size='lg'> View More Resources </Button>
             </div>
-
-                
         </div>
     )
 }
