@@ -34,7 +34,6 @@ To set up the project locally, follow these steps:
 
 4. **Start a local development server**:
    ```bash
-   cd src
    npm run dev
    ```
 
