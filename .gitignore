@@ -1,0 +1,48 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore node modules (if you're using Node.js)
+node_modules/
+npm-debug.log*
+
+# Ignore build and dist directories (if you have a build process)
+dist/
+build/
+
+# Ignore generated files from dependency managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore large media files (tracked by Git LFS)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Ignore compiled or minified files
+*.min.js
+*.min.css
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore other backups or temporary files
+*.~*
+*.cache/
+*.backup/
