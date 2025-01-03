@@ -1,4 +1,4 @@
-import '../styles/custom.scss'; // Import custom SCSS
+import '../styles/custom.scss';
 import '../styles/test.scss';
 
 function MyApp({ Component, pageProps }) {

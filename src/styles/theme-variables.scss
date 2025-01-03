@@ -6,14 +6,6 @@ $light-theme: (
     "secondary": #4C4A67,
 );
 
-// To be added?
-
-// $dark-theme: (
-//   "background": #343a40,
-//   "text-color": white,
-//   "primary": #17a2b8
-// );
-
 @function theme-colors($theme, $key) {
   @return map-get($theme, $key);
 }
