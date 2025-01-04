@@ -39,13 +39,15 @@ export default function Home() {
           />
         </div>
         <Head>
-          <title>Discover Old D'Hanis</title>
-          <link rel="icon" href="/favicon.ico" />
+            <title>Discover Old D'Hanis</title>
+            <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
+        <div className={styles.titleWrapper}>
           <h1 className={styles.title}>
             <a>Discover. Learn. Preserve.</a>
           </h1>
+        </div>
           <div className={styles.download}>
             <a 
               href="https://store.steampowered.com/app/3140860/Discover_Old_DHanis/" 

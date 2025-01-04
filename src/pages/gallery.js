@@ -17,7 +17,7 @@ const Gallery = () => {
         <div className={styles.gallery}>
         {images.map((image, index) => (
             <div className={styles.galleryItem} key={index}>
-            <Image src={image.src} alt={image.alt} width={400} height={450} />
+            <Image src={image.src} alt={image.alt} layout="responsive" width={400} height={450} />
             </div>
         ))}
         </div>

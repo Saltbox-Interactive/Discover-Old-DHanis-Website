@@ -1,18 +1,19 @@
 @import './theme-variables.scss'; 
 
 .galleryContainer{
-  min-height: 100vh;
-  min-width: 80vw;
+  // min-height: 100vh;
+  // min-width: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  margin-bottom: 5rem;
 }
 
 .galleryHeader{
   padding-bottom: 5rem;
-  margin-top: -17rem;
+  margin-top: -8rem;
   font-size: 4.5rem;
   color:  theme-colors($light-theme, "secondary"); 
 }
@@ -35,15 +36,21 @@
     &:hover {
       transform: scale(1.05);
     }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; 
+    }
+
   }
 }
 
 .underline {
   width: 45vw;
-  height: 0.5rem;
-  position: absolute;
+  height: 0.5rem;  position: absolute;
   background-color:  theme-colors($light-theme, "secondary"); 
-  margin-top: -40rem; 
+  margin-top: -38rem; 
   margin-bottom: 4rem; 
   z-index: -100;
 }

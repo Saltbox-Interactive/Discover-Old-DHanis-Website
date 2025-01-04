@@ -37,7 +37,7 @@ export default function Team(){
             <InfoBox
                 imageSrc='/assets/dod-logo.png'
                 altText='profile pic'
-                name='Terry Yu'
+                name='Terry Ju'
                 role='Web'
                 text='Text goes here'
             />

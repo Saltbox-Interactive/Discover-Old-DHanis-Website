@@ -17,8 +17,6 @@
   height: 100vh;
   position: absolute;
   z-index: -10;
-  // transition: background-color 0.3s ease;
-  // background-color: #191922;
 }
 
 .pageFormatting{
@@ -44,11 +42,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 0 1rem;
-  padding-top: 185px;
+  // margin: 0 0 1rem;
+  padding-top: 0.7rem;
   line-height: 1.15;
   font-size: 4.7rem;
   color: theme-colors($light-theme, "primary"); 
+}
+
+.titleWrapper{
+  background-color: rgba(245, 222, 179, 0.825);
+  border-radius: 2rem;
+  // height: 100px;
+  margin-top: 15rem;
+  width: 54vw;
+  height: 7rem;
+  bottom: 0px;
+  z-index: 1000;
 }
 
 .download{
