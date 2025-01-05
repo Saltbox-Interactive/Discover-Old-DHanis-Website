@@ -9,7 +9,6 @@ const images = [
   { src: '/assets/dod-screenshot-5.png', alt: 'Gallery image 5' },
   { src: '/assets/dod-screenshot-5.png', alt: 'Gallery image 5' },
   { src: '/assets/dod-screenshot-5.png', alt: 'Gallery image 5' },
-  { src: '/assets/testImage.png', alt: 'Gallery image 666'}
 ];
 
 const Gallery = () => {
