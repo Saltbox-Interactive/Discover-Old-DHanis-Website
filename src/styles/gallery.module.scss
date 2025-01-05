@@ -11,10 +11,13 @@
 }
 
 .galleryHeader{
-  padding-bottom: 5rem;
   margin-top: -8rem;
   font-size: 4.5rem;
   color:  theme-colors($light-theme, "secondary"); 
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .gallery {
@@ -47,9 +50,8 @@
 
 .underline {
   width: 45vw;
-  height: 0.5rem;  position: absolute;
+  height: 0.5rem;  
   background-color:  theme-colors($light-theme, "secondary"); 
-  margin-top: -38rem; 
   margin-bottom: 4rem; 
   z-index: -100;
 }

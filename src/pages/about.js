@@ -36,7 +36,7 @@ export default function About(){
                         founded the town in 1847 to the Black and Mexican families who made it their home following the 
                         Civil War and Mexican Revolution, the game offers a deep dive into the lives of those who shaped D'Hanis.
                         The town is brought to life using an impressive blend of archival records, archaeological discoveries, architectural details, 
-                        and oral history recordings.
+                        and oral history recordings. 
                         </p>                
                         <div className={styles.floatLeft}>
                             <img className={styles.imageIcon} src={images[1].src} alt={images[1].alt} />
@@ -62,6 +62,7 @@ export default function About(){
                         through various historical periods, you'll see how the town changed and developed. The meticulous research used 
                         in the game create an authentic atmosphere that immerses you in the vibrant history of this unique community.
                         </p>
+
                         <div className={styles.floatLeft}>
                             <img className={styles.imageIcon} src={images[3].src} alt={images[3].alt} />
                         </div>

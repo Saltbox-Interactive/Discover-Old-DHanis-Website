@@ -4,8 +4,10 @@ import InfoBox from '../components/InfoBox';
 export default function Team(){
     return ( 
         <div className={styles.container}>
-            <h1 className={styles.header}> The Team </h1>
-            <div className={styles.underline}></div>
+            <div className={styles.headerContainer}>
+                <h1 className={styles.header}> The Team </h1>
+                <div className={styles.underline}></div>
+            </div>
             <InfoBox
                 imageSrc='/assets/dod-logo.png'
                 altText='profile pic'
