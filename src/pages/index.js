@@ -15,8 +15,8 @@ export default function Home() {
     <div className={styles.pageFormatting}>
       <Navbar />
       <div className={styles.container} id='home'> 
-        <div className={styles.video}>
-          <ReactPlayer
+        <div className={styles.video}>          
+          {/* <ReactPlayer
             url="https://www.youtube.com/watch?v=674wW55lxek"
             playing={true}
             loop={true}
@@ -36,7 +36,8 @@ export default function Home() {
                 },
               },
             }}
-          />
+          /> */}
+          <img className={styles.backgroundImg} src='assets/background_pic.jpg'></img>
         </div>
         <Head>
             <title>Discover Old D'Hanis</title>
