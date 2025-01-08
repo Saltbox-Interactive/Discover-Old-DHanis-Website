@@ -6,7 +6,7 @@
     "dev": "next dev",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d _app.tsx"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
