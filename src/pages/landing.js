@@ -1,1 +1,0 @@
-// TODO: Move logic from index.js to here to clean it up
