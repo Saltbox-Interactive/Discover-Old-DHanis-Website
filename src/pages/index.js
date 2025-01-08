@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <div className={styles.container} id='home'> 
         <div className={styles.video}>          
-          <img className={styles.backgroundImg} src='assets/background_pic.jpg'></img>
+          <img className={styles.backgroundImg} src='https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/background_pic.jpg'></img>
         </div>
         <Head>
             <title>Discover Old D'Hanis</title>
