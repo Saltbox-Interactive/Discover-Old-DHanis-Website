@@ -8,7 +8,7 @@ const images = [
   { src: "/assets/dod-screenshot-4.png", alt: 'Gallery image 4' },
   { src: "assets/dod-screenshot-5.png", alt: 'Gallery image 5' },
   { src: "assets\dod-screenshot-5.png", alt: 'Gallery image 5 test' },
-  { src: '/Discover-Old-DHanis-Website/blob/main/public/assets/background_pic.jpg', alt: 'Gallery test'},
+  { src: '/Discover-Old-DHanis-Website/assets/background_pic.jpg', alt: 'Gallery test'},
 ];
 
 const Gallery = () => {
