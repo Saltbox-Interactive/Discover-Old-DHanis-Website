@@ -8,7 +8,7 @@ const Footer = () => {
             <div className={styles.footerContainer}>
             <div className={styles.companyIcon}>
             <Image 
-                src="/assets/saltbox-logo.png"  /* Path to your image */
+                src="https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/saltbox-logo.png"  /* Path to your image */
                 alt="Company Logo"
                 width={240}  /* Width of the image */
                 height={240}  /* Height of the image */
@@ -20,7 +20,7 @@ const Footer = () => {
                     <div className={styles.icons}>
                         <a href="https://store.steampowered.com/app/3140860/Discover_Old_DHanis/" target="_blank" rel="noopener noreferrer">
                             <Image 
-                                src='/assets/steam.svg'
+                                src='https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/steam.svg'
                                 alt='Steam logo' 
                                 width={50}
                                 height={50}
@@ -28,7 +28,7 @@ const Footer = () => {
                         </a>
                         <a href="https://www.youtube.com/@discoverolddhanis" target="_blank" rel="noopener noreferrer">
                             <Image 
-                                src='/assets/youtube.svg'
+                                src='https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/youtube.svg'
                                 alt='YouTube logo' 
                                 width={50}
                                 height={50}
@@ -36,7 +36,7 @@ const Footer = () => {
                         </a>
                         <a href="https://www.tiktok.com/@discoverolddhanis" target="_blank" rel="noopener noreferrer">
                             <Image 
-                                src='/assets/tiktok.svg'
+                                src='https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/tiktok.svg'
                                 alt='TikTok logo' 
                                 width={50}
                                 height={50}
@@ -44,7 +44,7 @@ const Footer = () => {
                         </a>
                         <a href="https://www.linkedin.com/company/saltbox-interactive/" target="_blank" rel="noopener noreferrer">
                             <Image 
-                                src='/assets/linkedin.svg'
+                                src='https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/linkedin.svg'
                                 alt='LinkedIn logo' 
                                 width={50}
                                 height={50}
