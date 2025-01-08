@@ -3,8 +3,8 @@ import styles from '../styles/gallery.module.scss';
 
 const images = [
   { src: '../../public/assets/dod-screenshot-1.png', alt: 'Gallery image 1' },
-  { src: '/assets/dod-screenshot-2.png', alt: 'Gallery image 2' },
-  { src: '/assets/dod-screenshot-3.png', alt: 'Gallery image 3' },
+  { src: './assets/dod-screenshot-2.png', alt: 'Gallery image 2' },
+  { src: './assets/dod-screenshot-3.png', alt: 'Gallery image 3' },
   { src: "/assets/dod-screenshot-4.png", alt: 'Gallery image 4' },
   { src: "/assets/dod-screenshot-5.png", alt: 'Gallery image 5' },
 ];
