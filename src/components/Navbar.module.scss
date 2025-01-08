@@ -1,35 +1,36 @@
 @import '../styles/theme-variables.scss';
 
-.header{
+.header {
   padding: 0;
   margin: 0;
   width: 100vw;
   height: 75px;
   position: fixed;
   background-color: transparent;
-  // left: -17px;
   transition: background-color 0.3s ease;
+  font-family: 'Cardo', serif;  /* Apply Cardo font to the header */
 }
 
 .scrolled {
-  background-color:  theme-colors($light-theme, "primary-container-light"); 
+  background-color: theme-colors($light-theme, "primary-container-light");
 }
 
-.homeLogo{
+.homeLogo {
   float: left;
   margin-top: 5px;
-  color: theme-colors($light-theme, "primary"); 
+  color: theme-colors($light-theme, "primary");
   left: 0;
   text-decoration: none;
   list-style: none;
   font-size: 36px;
+  font-family: 'Cardo', serif;  /* Apply Cardo font here */
 }
 
 .homeLogo:hover {
   text-decoration: underline;
 }
 
-.menuItems{ 
+.menuItems {
   float: right;
   padding-right: 3rem;
   list-style: none;
@@ -37,19 +38,15 @@
   align-items: center;
   align-self: center;
   padding-top: 20px;
-  /* height: 50px; */
-  /* width: 200px; */
 }
 
 .navLink {
-  color: theme-colors($light-theme, "primary"); 
+  color: theme-colors($light-theme, "primary");
   font-size: 24px;
   text-decoration: none;
+  font-family: 'Cardo', serif;  /* Apply Cardo font here */
 }
 
 .navLink:hover {
   text-decoration: underline;
 }
-// html {
-//   scroll-behavior: smooth;
-// }

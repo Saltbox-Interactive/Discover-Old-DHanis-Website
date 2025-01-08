@@ -7,16 +7,18 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 7rem;
+  font-family: 'Cardo', serif; 
 }
 
 .header {
   font-size: 4.5rem;
   margin-top: -1rem;
   margin-bottom: 4rem;
-  color:  theme-colors($light-theme, "secondary"); 
+  color: theme-colors($light-theme, "secondary"); 
+  font-family: 'Cardo', serif;
 }
 
-.headerContainer{
+.headerContainer {
   justify-content: center;
 }
 
@@ -24,12 +26,59 @@
   width: 35vw;
   height: 0.5rem;
   position: absolute;
-  background-color:  theme-colors($light-theme, "secondary"); 
+  background-color: theme-colors($light-theme, "secondary"); 
   margin-top: -3rem;
   margin-bottom: 4rem;
   left: 32.5vw; 
   z-index: -100;
 }
 
+.teamList {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 
+.teamMember {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
 
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.role {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: theme-colors($light-theme, "secondary");
+}
+
+.contactInfo {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.contactInfo li {
+  margin-bottom: 0.5rem;
+}
+
+.contactInfo a {
+  color: black;  /* Set link color to black */
+  text-decoration: none;  /* Remove underline */
+  font-weight: normal;  /* Make link text normal weight */
+}
+
+.contactInfo a:hover {
+  color: #333;  /* Slightly darken the color on hover */
+  text-decoration: underline;  /* Ensure no underline on hover */
+}
+
+.contactInfo a:focus {
+  outline: 2px solid #333;  /* Optional: focus styling for accessibility */
+}

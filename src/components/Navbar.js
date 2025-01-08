@@ -30,6 +30,9 @@ const Navbar = () => {
           <Link href="#home" className={styles.homeLogo}>Discover Old D'Hanis</Link>
         </li>
         <li className={styles.menuItems}>
+          <Link href="#contact" className={styles.navLink}>Contact</Link>
+        </li>
+        <li className={styles.menuItems}>
           <Link href="#team" className={styles.navLink}>Team</Link>
         </li>
         <li className={styles.menuItems}>

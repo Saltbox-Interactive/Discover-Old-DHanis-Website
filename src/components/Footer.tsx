@@ -4,10 +4,17 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id="contact">
             <div className={styles.footerContainer}>
-                <div className={styles.companyIcon}></div>
-               
+            <div className={styles.companyIcon}>
+            <Image 
+                src="/assets/saltbox-logo.png"  /* Path to your image */
+                alt="Company Logo"
+                width={240}  /* Width of the image */
+                height={240}  /* Height of the image */
+                objectFit="cover"  /* Ensures the image covers the circle */
+            />
+            </div>
                 <div className={styles.socials}> 
                     <h3>Learn more about our project</h3>
                     <div className={styles.icons}>
@@ -44,6 +51,9 @@ const Footer = () => {
                             />
                         </a>
                     </div>
+                    <div className={styles.emailSection}>
+                        <h3>Email us at <a href="mailto:saltboxinteractive@gmail.com">saltboxinteractive@gmail.com</a></h3>
+                     </div>
                 </div>
                 <div className={styles.columnFooter}>
                     <div className={styles.columnFooterText}>

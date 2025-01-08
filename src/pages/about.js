@@ -3,11 +3,12 @@ import Button from 'react-bootstrap/Button';
 
 
 const images = [
-    { src: '/assets/dod-screenshot-1.png', alt: 'Gallery image 1' },
-    { src: '/assets/dod-screenshot-2.png', alt: 'Gallery image 2' },
-    { src: '/assets/dod-screenshot-3.png', alt: 'Gallery image 3' },
-    { src: '/assets/dod-screenshot-4.png', alt: 'Gallery image 4' },
-    { src: '/assets/dod-screenshot-5.png', alt: 'Gallery image 5' },
+    { src: '/assets/acheivments/Archeologist.png', alt: 'Archaeologist' },
+    { src: '/assets/acheivments/Blacksmith.png', alt: 'Blacksmith' },
+    { src: '/assets/acheivments/Traveler.png', alt: 'Traveler' },
+    { src: '/assets/acheivments/Engineer.png', alt: 'Engineer' },
+    { src: '/assets/acheivments/Storyteller.png', alt: 'Storyteller' },
+
   ];
 
 export default function About(){

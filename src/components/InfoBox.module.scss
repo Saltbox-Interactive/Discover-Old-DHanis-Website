@@ -10,6 +10,7 @@
     // background-color: theme-colors($light-theme, "primary-container");
     border-radius: 8px;
     margin-top: 3rem;
+    font-family: 'Cardo', serif; /* Apply Cardo font here */
 }
 
 .imageContainer {
@@ -23,6 +24,7 @@
         border-radius: 50%; 
     }
 }
+
 .textContainer {
     flex: 0 1 100%;
     text-align: left;
@@ -32,18 +34,22 @@
     background-color: white;
     height: 100%;
     border-radius: 8px;
+    font-family: 'Cardo', serif; /* Apply Cardo font here */
 }
 
-.title{
+.title {
     font-size: 3rem;
+    font-family: 'Cardo', serif; /* Apply Cardo font here */
 }
 
 .role {
     font-style: italic;
     font-weight: 100;
     margin-bottom: 3rem;
+    font-family: 'Cardo', serif; /* Apply Cardo font here */
 }
 
-.description{
+.description {
     font-size: 1.2rem;
+    font-family: 'Cardo', serif; /* Apply Cardo font here */
 }

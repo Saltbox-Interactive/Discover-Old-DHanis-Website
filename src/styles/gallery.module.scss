@@ -1,57 +1,58 @@
 @import './theme-variables.scss'; 
 
-.galleryContainer{
+.galleryContainer {
   // min-height: 100vh;
-  // min-width: 80vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 7rem;
+  font-family: 'Cardo', serif; /* Apply Cardo font here */
 }
 
-.galleryHeader{
+.galleryHeader {
   margin-top: -8rem;
   font-size: 4.5rem;
-  color:  theme-colors($light-theme, "secondary"); 
+  color: theme-colors($light-theme, "secondary"); 
   margin-bottom: 1rem;
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: 'Cardo', serif; /* Apply Cardo font here */
 }
 
 .gallery {
-  
   display: grid;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 30px;
   grid-template-columns: repeat(3, 1fr);
-  padding: 20px;
+  padding: 10px;
+  font-family: 'Cardo', serif; /* Apply Cardo font here */
+}
 
-  .galleryItem {
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+.galleryItem {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 
-    &:hover {
-      transform: scale(1.05);
-    }
+  &:hover {
+    transform: scale(1.5);
+  }
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain; 
-    }
-
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
   }
 }
 
 .underline {
   width: 45vw;
   height: 0.5rem;  
-  background-color:  theme-colors($light-theme, "secondary"); 
+  background-color: theme-colors($light-theme, "secondary"); 
   margin-bottom: 4rem; 
   z-index: -100;
 }

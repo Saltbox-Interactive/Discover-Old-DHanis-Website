@@ -2,19 +2,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    Segoe UI,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Fira Sans,
-    Droid Sans,
-    Helvetica Neue,
-    sans-serif;
+  font-family: 'Cardo', serif; /* Apply Cardo font globally */
+}
+
+h1, h2, h3, h4, h5, h6, p, span, strong, em, u, i, blockquote, li, dt, dd, a {
+  font-family: 'Cardo', serif; /* Ensures Cardo is used across all text elements */
 }
 
 a {

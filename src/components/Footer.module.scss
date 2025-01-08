@@ -3,13 +3,11 @@
 .footerContainer {
     width: 100vw;
     position: absolute;
-    right: 0px;
-    margin-right: 0px;
-    padding-right: 0px;
-    height: 26rem;
+    height: 31rem;
     background-color: theme-colors($light-theme, "secondary-container");
     margin-top: 3rem;
     z-index: -10;
+    font-family: 'Cardo', serif;  /* Apply Cardo font here */
 }
 
 .columnFooter {
@@ -19,23 +17,26 @@
 }
 
 .columnFooterText {
-    flex: 1; 
-    text-align: center; 
-    margin-top: 3rem; 
+    flex: 1;
+    text-align: center;
+    margin-top: 3rem;
     font-size: 1.2rem;
     padding: 0rem 0rem 0rem 0rem;
+    font-family: 'Cardo', serif;  /* Apply Cardo font here */
 }
 
 .leftColumn {
     text-align: left;
     font-size: 1.2rem;
     margin-left: 2rem;
+    font-family: 'Cardo', serif;  /* Apply Cardo font here */
 }
 
 .rightColumn {
     text-align: right;
     font-size: 1.2rem;
     margin-right: 1rem;
+    font-family: 'Cardo', serif;  /* Apply Cardo font here */
 }
 
 .companyIcon {
@@ -69,4 +70,27 @@
     width: 50px; /* Uniform width for icons */
     height: 50px; /* Uniform height for icons */
     display: block; /* Ensures proper alignment */
+}
+
+.emailSection {
+    display: flex;               /* Flexbox to align the content in a single row */
+    justify-content: center;     /* Center the content horizontally */
+    align-items: center;         /* Vertically center the content */
+    margin-top: 2rem;            /* Adjust spacing above the email section */
+    font-size: 1rem;             /* Adjust font size */
+    font-family: 'Cardo', serif; /* Font for the email section */
+    white-space: nowrap;         /* Prevent wrapping to the next line */
+    width: 100%;                 /* Ensure the section takes up the full width of the parent */
+    max-width: 100%;             /* Ensure no overflow horizontally */
+}
+
+.emailSection a {
+    color: #191922;            /* Set the link color */
+    text-decoration: none;     /* Remove underline from link */
+    font-weight: bold;         /* Make the email bold */
+    margin-left: 5px;           /* Small space between text and link */
+}
+
+.emailSection a:hover {
+    text-decoration: underline; /* Underline on hover */
 }

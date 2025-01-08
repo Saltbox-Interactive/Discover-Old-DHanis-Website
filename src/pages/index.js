@@ -16,27 +16,6 @@ export default function Home() {
       <Navbar />
       <div className={styles.container} id='home'> 
         <div className={styles.video}>          
-          {/* <ReactPlayer
-            url="https://www.youtube.com/watch?v=674wW55lxek"
-            playing={true}
-            loop={true}
-            muted={true}
-            width="100%"
-            height="100%"
-            className={styles.video}
-            config={{
-              youtube: {
-                playerVars: {
-                  controls: 0, 
-                  modestbranding: 1, 
-                  showinfo: 0, 
-                  rel: 0, 
-                  disablekb: 1,
-                  vq: 'hd1080',
-                },
-              },
-            }}
-          /> */}
           <img className={styles.backgroundImg} src='assets/background_pic.jpg'></img>
         </div>
         <Head>
