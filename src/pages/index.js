@@ -7,7 +7,7 @@ import styles from '../styles/home.module.scss';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Image from 'next/image';
-import banner from '../../public/assets/background_pic.jpg'
+import banner from './assets/background_pic.jpg'
 
 export default function Home() {
   return (
