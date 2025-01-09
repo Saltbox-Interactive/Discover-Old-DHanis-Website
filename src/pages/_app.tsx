@@ -1,5 +1,4 @@
 import '../styles/custom.scss';
-import '../styles/test.scss';
 import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {

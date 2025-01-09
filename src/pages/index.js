@@ -3,11 +3,8 @@ import Button from 'react-bootstrap/Button';
 import About from './about';
 import Team from './team';
 import Gallery from './gallery';
-import Image from "next/image";
 import styles from '../styles/home.module.scss';
-import TestComponent from './test';
 import Navbar from '../components/Navbar';
-import ReactPlayer from 'react-player';
 import Footer from '../components/Footer'
 
 export default function Home() {
@@ -34,7 +31,9 @@ export default function Home() {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              <Button variant="primary" size='lg'>Play on Steam</Button>
+            <Button variant="primary" size="lg" style={{ backgroundColor: 'grey', borderColor: 'grey' }}>
+              Play on Steam
+            </Button>
             </a>
           </div>
         </main>
