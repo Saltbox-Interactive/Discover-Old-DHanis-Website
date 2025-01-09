@@ -52,7 +52,7 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className={styles.emailSection}>
-                        <h3>Email us at <a href="mailto:saltboxinteractive@gmail.com">saltboxinteractive@gmail.com</a></h3>
+                        <h3>Email us at <a href="mailto:discoverolddhanis@gmail.com">discoverolddhanis@gmail.com</a></h3>
                      </div>
                 </div>
                 <div className={styles.columnFooter}>

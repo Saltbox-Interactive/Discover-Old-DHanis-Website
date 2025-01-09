@@ -6,11 +6,11 @@
     "dev": "next dev",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d _app.tsx"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "next": "^15.1.2",
+    "next": "^15.1.4",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^19.0.0",
