@@ -31,7 +31,7 @@ export default function Home() {
               target="_blank" 
               rel="noopener noreferrer"
             >
-            <Button variant="primary" size="lg" style={{ backgroundColor: 'grey', borderColor: 'grey' }}>
+            <Button variant="primary" size="lg" className={styles.brownbutton}>
               Play on Steam
             </Button>
             </a>

@@ -67,6 +67,12 @@
   font-family: 'Cardo', serif; /* Ensure Cardo font for download text */
 }
 
+/* In your CSS file */
+.brownbutton {
+  background-color: theme-colors($light-theme, "primary");
+  border-color: theme-colors($light-theme, "primary");
+}
+
 .logo {
   height: 1em;
 }
