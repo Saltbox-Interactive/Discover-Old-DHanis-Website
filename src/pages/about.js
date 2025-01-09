@@ -1,6 +1,6 @@
 import styles from '../styles/about.module.scss';
 import Button from 'react-bootstrap/Button';
-
+import Image from 'next/image';
 
 const images = [
     { src: '/assets/acheivments/Archeologist.png', alt: 'Archaeologist' },
