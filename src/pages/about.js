@@ -17,8 +17,7 @@ export default function About() {
                 <div className={styles.aboutText}>
                     <div className={styles.infoSection}>
                         <p className={styles.floatLeft}>
-                            Discover Old D'Hanis is an educational and immersive historical experience that invites you to explore the rich and diverse history of the real-life town of D'Hanis, Texas. Step back into the 19th century and embark on a captivating journey through a meticulously recreated town, where each corner tells a story of its past inhabitants.
-                        </p>                
+                        Discover Old D'Hanis is an immersive educational experience that invites you to explore the history of the old town of D’Hanis, TX. The game is based on data from the Old D’Hanis Archaeological Mapping Project, a real archaeological project that examined the ruins, stories, and landscapes of the historic town, alongside community members, in 2018.                        </p>                
                         <div className={styles.floatRight}>
                             <Image
                                 className={styles.imageIcon}
@@ -32,8 +31,7 @@ export default function About() {
 
                     <div className={styles.infoSection}>
                         <p className={styles.floatRight}>
-                            In Discover Old D'Hanis, you'll traverse the streets of this historical town, uncovering the narratives of its early settlers. From the Alsatian and German migrants who founded the town in 1847 to the Black and Mexican families who made it their home following the Civil War and Mexican Revolution, the game offers a deep dive into the lives of those who shaped D'Hanis. The town is brought to life using an impressive blend of archival records, archaeological discoveries, architectural details, and oral history recordings.
-                        </p>                
+                        Enter D’Hanis and you will find yourself in front of the ruin of its Catholic church, grass beneath your feet, the sound of wind and the occasional bird in a landscape empty of people. You stand at the intersection of past and present. Walking through the historic streets, you will find virtual reconstructions of white-walled cottages from the 19th century alongside 21st century ruins scanned by archaeologists.                        </p>                
                         <div className={styles.floatLeft}>
                             <Image
                                 className={styles.imageIcon}
@@ -47,8 +45,7 @@ export default function About() {
 
                     <div className={styles.infoSection}>
                         <p className={styles.floatLeft}>
-                            As you explore, you’ll take on the role of a historical detective. Delve into a wealth of interactive elements, including archaeological photos, field notes, and artifacts that provide insights into the town’s history. Wander through ruins and examine interactive exhibits to uncover hidden stories and solve historical puzzles based on actual events. Each piece of information you gather helps to weave together the complex tapestry of D'Hanis's past.
-                        </p>
+                        Scattered throughout the landscape are pieces of D’Hanis’ story – a 19th century photograph, archaeological field notes, a quote from an oral history, a newspaper article. Alone, these provide small snapshots of the town or the archaeological project through time. Together, they paint a fuller picture of D’Hanis and its residents, from the Alsatian and German migrants who founded the town in 1847 to the Black and Mexican families who made it their home following the Civil War and Mexican Revolution. Your role: to explore, to collect fragments, and to piece together the stories of the Old D’Hanis.                        </p>
                         <div className={styles.floatRight}>
                             <Image
                                 className={styles.imageIcon}
@@ -62,8 +59,7 @@ export default function About() {
 
                     <div className={styles.infoSection}>
                         <p className={styles.floatRight}>   
-                            The game allows you to witness the transformation of Old D'Hanis over time. From its early settlement days through various historical periods, you'll see how the town changed and developed. The meticulous research used in the game create an authentic atmosphere that immerses you in the vibrant history of this unique community.
-                        </p>
+                        Based on the history of a real Texas town, Discover Old D’Hanis features 3D models of ruins, historically-informed landscape and sound design, interactive features, artistic reconstructions, and an original musical composition based on old German folk songs. It provides a glimpse into a real archaeology project and demonstrates how we come to understand the past through its fragments.                        </p>
                         <div className={styles.floatLeft}>
                             <Image
                                 className={styles.imageIcon}
@@ -77,8 +73,7 @@ export default function About() {
 
                     <div className={styles.infoSection}>
                         <p className={styles.floatLeft}>
-                            Discover Old D'Hanis is more than just a game; it’s an invitation to preserve and share the historical legacy of a remarkable town. Are you ready to uncover its secrets and experience the old town? The journey through Old D'Hanis awaits!
-                        </p>
+                        Discover Old D'Hanis is more than just a game; it’s an invitation to join the efforts preserve and share the historical legacy of an historic place. Are you ready to uncover the stories and experience the old town?                        </p>
                         <div className={styles.floatRight}>
                             <Image
                                 className={styles.imageIcon}
