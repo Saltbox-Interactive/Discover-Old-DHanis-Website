@@ -2,11 +2,11 @@ import styles from '../styles/about.module.scss';
 import Image from 'next/image';
 
 const images = [
-    { src: '/assets/acheivments/Archeologist.png', alt: 'Archaeologist' },
-    { src: '/assets/acheivments/Blacksmith.png', alt: 'Blacksmith' },
-    { src: '/assets/acheivments/Traveler.png', alt: 'Traveler' },
-    { src: '/assets/acheivments/Engineer.png', alt: 'Engineer' },
-    { src: '/assets/acheivments/Storyteller.png', alt: 'Storyteller' },
+    { src: '/assets/acheivments/Archeologist.svg', alt: 'Archaeologist' },
+    { src: '/assets/acheivments/Blacksmith.svg', alt: 'Blacksmith' },
+    { src: '/assets/acheivments/Traveler.svg', alt: 'Traveler' },
+    { src: '/assets/acheivments/Engineer.svg', alt: 'Engineer' },
+    { src: '/assets/acheivments/Storyteller.svg', alt: 'Storyteller' },
 ];
 
 export default function About() {
