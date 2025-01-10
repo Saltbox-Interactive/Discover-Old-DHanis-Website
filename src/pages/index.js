@@ -7,7 +7,6 @@ import styles from '../styles/home.module.scss';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Image from 'next/image';
-// import banner from './assets/background_pic.jpg'
 
 export default function Home() {
   return (
@@ -16,8 +15,11 @@ export default function Home() {
       <div className={styles.container} id='home'> 
         <div className={styles.video}>
           {/* Use Next.js Image component for background image */}
-                    <img src="assets/background_pic.jpg" alt="Resume" className={styles.backgroundImg}>
-                    </img>  
+          <img 
+            className={styles.backgroundImg}
+            src="/assets/background_pic.jpg"
+            alt="Background"
+          />
         </div>
         <Head>
             <title>Discover Old D'Hanis</title>
