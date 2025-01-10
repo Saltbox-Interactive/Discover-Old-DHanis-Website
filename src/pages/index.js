@@ -17,7 +17,7 @@ export default function Home() {
           {/* Use Next.js Image component for background image */}
           <img 
             className={styles.backgroundImg}
-            src="/assets/background_pic.jpg"
+            src="/assets/background_pic.svg"
             alt="Background"
           />
         </div>
