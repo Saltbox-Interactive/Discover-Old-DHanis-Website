@@ -2,11 +2,11 @@ import styles from '../styles/about.module.scss';
 import Image from 'next/image';
 
 const images = [
-    { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/acheivments/Archeologist.png', alt: 'Archaeologist' },
-    { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/acheivments/Blacksmith.png', alt: 'Blacksmith' },
-    { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/acheivments/Traveler.png', alt: 'Traveler' },
-    { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/acheivments/Engineer.png', alt: 'Engineer' },
-    { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/acheivments/Storyteller.png', alt: 'Storyteller' },
+    { src: '/assets/acheivments/Archeologist.png', alt: 'Archaeologist' },
+    { src: '/assets/acheivments/Blacksmith.png', alt: 'Blacksmith' },
+    { src: '/assets/acheivments/Traveler.png', alt: 'Traveler' },
+    { src: '/assets/acheivments/Engineer.png', alt: 'Engineer' },
+    { src: '/assets/acheivments/Storyteller.png', alt: 'Storyteller' },
 ];
 
 export default function About() {
@@ -73,45 +73,19 @@ export default function About() {
 
                     <div className={styles.infoSection}>
                         <p className={styles.floatLeft}>
-                        Discover Old D'Hanis is more than just a game; it’s an invitation to join the efforts preserve and share the historical legacy of an historic place. Are you ready to uncover the stories and experience the old town?                        </p>
+                            Discover Old D'Hanis is more than just a game; it’s an invitation to join the efforts preserve and share the historical legacy of an historic place. Are you ready to uncover the stories and experience the old town?                        </p>
                         <div className={styles.floatRight}>
                             <Image
                                 className={styles.imageIcon}
-                                src={images[0].src}
-                                alt={images[0].alt}
-                                width={200}  
+                                src={images[4].src}
+                                alt={images[4].alt}
+                                width={200}  // Add width and height
                                 height={200}
                             />
                         </div>
                     </div>
-
-                    {/* Additional info sections omitted for brevity */}
-
                 </div>
             </div>
-                {/* Citation section */}
-                <div className={styles.citationContainer}>
-                    <p>
-                        Markert, Patricia G., Michael Salton, Emily Missetta Grant, and Joyce Lee.  
-                        <em>Discover Old D’Hanis for Windows/Mac</em>, V. 1., Saltbox Interactive, Released early access January 4, 2025.
-                    </p>
-                    
-                    <p>
-                        <strong>Project Support and Acknowledgments</strong>
-                    </p>
-                    
-                    <p>
-                        This project has been supported by Western University, Binghamton University, the National Geographic Society, the Wenner-Gren Foundation, the Mellon Foundation/American Council of Learned Societies, the Council of Texas Archeologists, and the Medina County Historical Commission.
-                    </p>
-                    
-                    <p>
-                        It features data and research from the Old D’Hanis Archaeological Mapping Project and Castro Colonies Oral History Project, with credit to online archives such as the Portal to Texas History (University of North Texas Libraries) and UTSA Special Collections.
-                    </p>
-                    
-                    <p>
-                        Most importantly, it has been made possible by the community of D’Hanis and Medina County more broadly, who continue to be involved in the development of the game and future research directions.
-                    </p>
-                </div>
         </div>
     );
 }
