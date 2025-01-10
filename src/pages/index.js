@@ -16,13 +16,8 @@ export default function Home() {
       <div className={styles.container} id='home'> 
         <div className={styles.video}>
           {/* Use Next.js Image component for background image */}
-          <Image 
-            className={styles.backgroundImg}
-            src='/assets/background_pic.jpg'
-            alt='Background'
-            layout='fill' // This ensures the background image takes up the entire space
-            objectFit='cover' // This ensures the image scales properly
-          />
+                    <img src="assets/background_pic.jpg" alt="Resume" className={styles.backgroundImg}>
+                    </img>  
         </div>
         <Head>
             <title>Discover Old D'Hanis</title>
