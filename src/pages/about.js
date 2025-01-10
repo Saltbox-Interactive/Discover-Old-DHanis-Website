@@ -2,11 +2,11 @@ import styles from '../styles/about.module.scss';
 import Image from 'next/image';
 
 const images = [
-    { src: '/assets/acheivments/Archeologist.png', alt: 'Archaeologist' },
-    { src: '/assets/acheivments/Blacksmith.png', alt: 'Blacksmith' },
-    { src: '/assets/acheivments/Traveler.png', alt: 'Traveler' },
-    { src: '/assets/acheivments/Engineer.png', alt: 'Engineer' },
-    { src: '/assets/acheivments/Storyteller.png', alt: 'Storyteller' },
+    { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/acheivments/Archeologist.png', alt: 'Archaeologist' },
+    { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/acheivments/Blacksmith.png', alt: 'Blacksmith' },
+    { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/acheivments/Traveler.png', alt: 'Traveler' },
+    { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/acheivments/Engineer.png', alt: 'Engineer' },
+    { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/acheivments/Storyteller.png', alt: 'Storyteller' },
 ];
 
 export default function About() {

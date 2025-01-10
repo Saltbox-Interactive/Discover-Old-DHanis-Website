@@ -8,7 +8,7 @@ const Footer = () => {
             <div className={styles.footerContainer}>
             <div className={styles.companyIcon}>
             <Image 
-                src="/assets/saltbox-logo.png"  /* Path to your image */
+                src="https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/saltbox-logo.png"  /* Path to your image */
                 alt="Company Logo"
                 width={240}  /* Width of the image */
                 height={240}  /* Height of the image */
