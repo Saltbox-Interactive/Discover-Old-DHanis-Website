@@ -7,7 +7,7 @@ import styles from '../styles/home.module.scss';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Image from 'next/image';
-import banner from './assets/background_pic.jpg'
+// import banner from './assets/background_pic.jpg'
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
           {/* Use Next.js Image component for background image */}
           <Image 
             className={styles.backgroundImg}
-            src= {banner}
+            src='/assets/background_pic.jpg'
             alt='Background'
             layout='fill' // This ensures the background image takes up the entire space
             objectFit='cover' // This ensures the image scales properly
