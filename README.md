@@ -2,17 +2,6 @@
 
 Welcome to the **Discover Old D'Hanis** website repository! This website aims to provide a homepage for the **Discover Old D'Hanis** project.
 
-## Project Overview
-
-The website is a companion to the Discover Old D'Hanis game, an educational historical experience set in the real-life town of D'Hanis, Texas. The goal is to present historical information in an accessible and interactive format for both locals and visitors.
-
-## Features
-
-- **Interactive Media**: Includes images, videos, and other multimedia elements showcasing the town's history.
-- **Historical Content**: Detailed information about significant events, locations, and figures in D'Hanis.
-- **Responsive Design**: Optimized for various screen sizes, including mobile, tablet, and desktop.
-- **Git LFS for Media Files**: Large media files are tracked using Git Large File Storage (LFS) to manage repository size.
-
 ##  To set up the project for development
 
 1. **Clone the repository**:
