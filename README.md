@@ -1,6 +1,6 @@
 # Discover Old D'Hanis Website
 
-Welcome to the Discover Old D'Hanis website repository! This project aims to provide an engaging educational experience about the rich history of D'Hanis, Texas, through a beautifully designed website.
+Welcome to the **Discover Old D'Hanis** website repository! This website aims to provide a homepage for the **Discover Old D'Hanis** project.
 
 ## Project Overview
 
@@ -13,13 +13,11 @@ The website is a companion to the Discover Old D'Hanis game, an educational hist
 - **Responsive Design**: Optimized for various screen sizes, including mobile, tablet, and desktop.
 - **Git LFS for Media Files**: Large media files are tracked using Git Large File Storage (LFS) to manage repository size.
 
-## Installation
-
-To set up the project locally, follow these steps:
+##  To set up the project for development
 
 1. **Clone the repository**:
    ```bash
-   git clone git@github.com:username/Discover-Old-DHanis-Website.git
+   git clone https://github.com/Saltbox-Interactive/Discover-Old-DHanis-Website.git
    ```
 
 2. **Navigate to the project directory**:
@@ -27,7 +25,7 @@ To set up the project locally, follow these steps:
    cd Discover-Old-DHanis-Website
    ```
 
-3. **Install dependencies (if applicable)**:
+3. **Install dependencies**:
    ```bash
    npm install
    ```
@@ -43,30 +41,23 @@ To set up the project locally, follow these steps:
 
 Feel free to explore the website and learn about the fascinating history of D'Hanis. Contributions to improve the content or design are welcome!
 
-## Contributing
+## To make a contribution
 
-If you'd like to contribute:
+1. **Create a Branch**: 
+   - Branch off from the `preview` branch.
+   - Name your branch after your task from the project kanban board, using the ticket number as a prefix.  
+     **Example**: `42-optimization-fix`
 
-1. **Fork the repository**.
-2. **Create a new branch**:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Make your changes and commit them**:
-   ```bash
-   git commit -m "Add your commit message here"
-   ```
-4. **Push to your fork**:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
+2. **Make Changes**: Implement your changes or additions on your branch.
 
-5. Open a pull request.
+3. **Submit a Pull Request**: Once your changes are ready, create a pull request to merge your branch into `preview`.
 
-## License
+4. **Approval and Merging**: After your pull request is reviewed and approved, it will be merged into `preview`.
 
-This project is licensed under the [MIT License](LICENSE).
+> ⚠️ **Important**: Do not make direct changes to the `main` or `production` branches.
 
 ## Contact
 
 For any inquiries, please contact [saltboxinteractive@gmail.com].
+
+---
