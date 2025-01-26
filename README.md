@@ -26,10 +26,6 @@ Welcome to the **Discover Old D'Hanis** website repository! This website aims to
 
 5. Open your browser and go to `http://localhost:3000` to view the website.
 
-## Usage
-
-Feel free to explore the website and learn about the fascinating history of D'Hanis. Contributions to improve the content or design are welcome!
-
 ## To make a contribution
 
 1. **Create a Branch**: 
