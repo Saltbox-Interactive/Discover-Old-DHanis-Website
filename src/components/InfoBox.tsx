@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from './InfoBox.module.scss';
+import styles from '../styles/InfoBox.module.scss';
 
 interface InfoBox {
   imageSrc?: string;

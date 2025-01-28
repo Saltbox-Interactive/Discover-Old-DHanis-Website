@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Footer.module.scss';
+import styles from '../styles/Footer.module.scss';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -8,11 +8,11 @@ const Footer = () => {
             <div className={styles.footerContainer}>
             <div className={styles.companyIcon}>
             <Image 
-                src="/assets/saltbox-logo.svg"  /* Path to your image */
+                src="/assets/saltbox-logo.svg"
                 alt="Company Logo"
-                width={240}  /* Width of the image */
-                height={240}  /* Height of the image */
-                objectFit="cover"  /* Ensures the image covers the circle */
+                width={240}
+                height={240}
+                objectFit="cover"
             />
             </div>
                 <div className={styles.socials}> 
@@ -59,7 +59,7 @@ const Footer = () => {
                     <div className={styles.columnFooterText}>
                        <h3 className={styles.leftColumn}> Proudly made by Saltbox Interactive</h3>
                     </div>
-                    <h3 className={styles.columnFooterText}> © Saltbox Interactive, 2024. All Rights Reserved.</h3>
+                    <h3 className={styles.columnFooterText}> © Saltbox Interactive, 2025. All Rights Reserved.</h3>
                     <div className={styles.columnFooterText}>
                     </div>
                 </div>

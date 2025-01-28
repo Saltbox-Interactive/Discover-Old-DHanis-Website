@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link'; // Import Next.js's Link
-import styles from './Navbar.module.scss';
+import Link from 'next/link';
+import styles from '../styles/Navbar.module.scss';
 
 const Navbar = () => {
 
@@ -16,7 +16,6 @@ const Navbar = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    // Cleanup function to remove the event listener
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -24,7 +23,6 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
-   {/* <nav className={`${styles.header}`}>  */}
       <ul>
         <li className={styles.homeLogo}>
           <Link href="#home" className={styles.homeLogo}>Discover Old D'Hanis</Link>
@@ -46,6 +44,4 @@ const Navbar = () => {
   );
 };
 
-
 export default Navbar;
-

@@ -6,7 +6,6 @@ import Gallery from './gallery';
 import styles from '../styles/home.module.scss';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -14,8 +13,7 @@ export default function Home() {
       <Navbar />
       <div className={styles.container} id='home'> 
         <div className={styles.video}>
-          {/* Use Next.js Image component for background image */}
-          <img 
+          <img
             className={styles.backgroundImg}
             src="/assets/background_pic.svg"
             alt="Background"
@@ -54,9 +52,6 @@ export default function Home() {
       <section id='team'>
         <Team />  
       </section>
-
-      {/* <TestComponent />  */}
-      
       <Footer />  
     </div>
   );
