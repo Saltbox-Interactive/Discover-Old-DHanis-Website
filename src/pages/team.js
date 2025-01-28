@@ -1,4 +1,4 @@
-import styles from '../styles/team.module.scss';
+import styles from '../components/Team/team.module.scss';
 
 const teamMembers = [
     {
