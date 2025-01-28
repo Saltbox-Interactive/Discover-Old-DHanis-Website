@@ -1,7 +1,7 @@
 // Import Bootstrap's base variables and mixins
-    @import "../../../node_modules/bootstrap/scss/functions";
-    @import "../../../node_modules/bootstrap/scss/variables";
-    @import "../../../node_modules/bootstrap/scss/mixins";
+    @import "../../node_modules/bootstrap/scss/functions";
+    @import "../../node_modules/bootstrap/scss/variables";
+    @import "../../node_modules/bootstrap/scss/mixins";
 // Overrides default bootstrap theme
 
 $light-theme: (
@@ -16,4 +16,4 @@ $light-theme: (
 //     --secondary: #4C4A67;
 //   }
 
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";

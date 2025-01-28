@@ -1,49 +1,10 @@
-@import '_core/theme-variables';
+@import 'theme-variables';
 
 .container {
   height: 220vh;
   padding: 0;
   margin-top: 9rem;
   margin-bottom: 2rem;
-}
-
-.infoSection {
-  padding-bottom: 20rem;
-}
-
-.infoSection p {
-  position: relative;
-  font-size: 1.2rem;
-  font-family: 'Cardo', serif;
-  text-align: justify; /* Optional: If you want justified text */
-}
-
-.infoSection p::first-letter {
-  font-size: 3.5rem; /* Adjust the size of the first letter */
-  font-weight: bold;
-  color: #000; /* Choose a color for the drop cap */
-  float: left;
-  margin-right: 5px; /* Space between the drop cap and the rest of the text */
-  line-height: 1.1; /* Adjust line height to align properly */
-}
-
-.floatLeft {
-  float: left;
-  width: 35vw;
-  margin-left: 7.5vw;
-}
-
-.floatRight {
-  float: right;
-  width: 35vw;
-  margin-right: 7.5vw;
-}
-
-.imageIcon {
-  max-width: 15rem;  /* Set a maximum width */
-  max-height: rem; /* Set a maximum height */
-  width: 100%;       /* Ensure the image takes up available space but does not exceed max width */
-  height: auto;      /* Maintain aspect ratio */
 }
 
 .title {
@@ -53,11 +14,6 @@
   margin-top: -5rem;
   margin-bottom: 8rem;
   font-family: 'Cardo', serif;  /* Apply Cardo font here */
-}
-
-.button {
-  margin-top: -20rem;
-  margin-left: 7.5vw;
 }
 
 .aboutContainer {
