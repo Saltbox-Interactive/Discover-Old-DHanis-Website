@@ -3,10 +3,9 @@ import Button from 'react-bootstrap/Button';
 import About from './about';
 import Team from './team';
 import Gallery from './gallery';
-import styles from '../styles/home.module.scss';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Image from 'next/image';
+import styles from '../components/Home/home.module.scss';
+import Navbar from '../components/navbar/Navbar';
+import Footer from '../components/footer/Footer';
 
 export default function Home() {
   return (
@@ -14,8 +13,7 @@ export default function Home() {
       <Navbar />
       <div className={styles.container} id='home'> 
         <div className={styles.video}>
-          {/* Use Next.js Image component for background image */}
-          <img 
+          <img
             className={styles.backgroundImg}
             src="/assets/background_pic.svg"
             alt="Background"
@@ -54,9 +52,6 @@ export default function Home() {
       <section id='team'>
         <Team />  
       </section>
-
-      {/* <TestComponent />  */}
-      
       <Footer />  
     </div>
   );
