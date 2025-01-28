@@ -34,7 +34,7 @@ const teamMembers = [
         ]
     },
     {
-        name: "Terrane Ju",
+        name: "Terrence Ju",
         role: "Web",
         contact: [
             { type: "email", value: "t.juottawa@gmail.com" },
