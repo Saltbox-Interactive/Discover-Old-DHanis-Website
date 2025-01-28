@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from '../styles/gallery.module.scss';
 
 const images = [
-  { src: '/assets/dod-screenshot-1.svg', alt: 'Gallery image 2' },
+  { src: '/assets/dod-screenshot-1.png', alt: 'Gallery image 2' },
   { src: '/assets/dod-screenshot-2.svg', alt: 'Gallery image 2' },
   { src: '/assets/dod-screenshot-3.svg', alt: 'Gallery image 3' },
   { src: '/assets/dod-screenshot-5.svg', alt: 'Gallery image 5' },
