@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import About from './about';
 import Team from './team';
 import Gallery from './gallery';
-import styles from '../styles/home.module.scss';
+import styles from '../components/Home/home.module.scss';
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
 
