@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from '../styles/AboutSection.scss';
+import styles from './About.module.scss';
 
 export default function AboutSection({ text, image, reverse }) {
     return (

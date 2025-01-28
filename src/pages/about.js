@@ -1,5 +1,5 @@
-import styles from '../styles/about.module.scss';
-import AboutSection from '../components/AboutSection';
+import styles from '../components/AboutSection/About.module.scss';
+import AboutSection from '../components/AboutSection/AboutSection';
 
 const sections = [
     {
