@@ -16,6 +16,10 @@ import styles from '../components/Gallery/gallery.module.scss';
     
     3. Ensure that the "unoptimized" tag is used in the Image object, as shown in the Gallery below
 
+
+    Only issue with this method is image loading is a bit slow, will try to investigate this page and fix the issue later
+    https://nextjs.org/docs/pages/building-your-application/optimizing/images  
+    
 */
 
 const images = [
