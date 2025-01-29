@@ -15,7 +15,7 @@ export default function Home() {
         <div className={styles.video}>
           <img
             className={styles.backgroundImg}
-            src="/assets/background_pic.svg"
+            src="https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/background_pic.jpg"
             alt="Background"
           />
         </div>

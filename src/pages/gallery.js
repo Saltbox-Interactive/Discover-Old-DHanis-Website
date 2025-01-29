@@ -3,7 +3,7 @@ import styles from '../components/Gallery/gallery.module.scss';
 
 /*
 
-  There are a few things things you have to do to get an image to show up in Production, will try to find a better solution but this works in the meantime.
+  There are 2 things you have to do to get an image to show up in Production, will try to find a better solution but this works in the meantime.
   
   Steps to displaying an image:
     
@@ -13,12 +13,6 @@ import styles from '../components/Gallery/gallery.module.scss';
       - https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/ 
       - For example, if the file was named "test.png", the full file reference would be: 
         - https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/test.png
-    
-    3. Ensure that the "unoptimized" tag is used in the Image object, as shown in the Gallery below
-
-
-    Only issue with this method is image loading is a bit slow, will try to investigate this page and fix the issue later
-    https://nextjs.org/docs/pages/building-your-application/optimizing/images  
 
 */
 
@@ -43,7 +37,6 @@ const Gallery = () => {
         {images.map((image, index) => (
             <div className={styles.galleryItem} key={index}>
             <Image 
-              // unoptimized
               src={image.src} 
               alt={image.alt} 
               layout="intrinsic"
