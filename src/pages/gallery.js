@@ -39,7 +39,7 @@ const Gallery = () => {
         {images.map((image, index) => (
             <div className={styles.galleryItem} key={index}>
             <Image 
-              // unoptimized={false}
+              unoptimized
               src={image.src} 
               alt={image.alt} 
               layout="intrinsic"
