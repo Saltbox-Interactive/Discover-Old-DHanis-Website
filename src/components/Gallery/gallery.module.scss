@@ -3,6 +3,7 @@
 .galleryContainer {
   // min-height: 100vh;
   width: 100vw;
+  background-color: blue($color: #dcb4b4);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +13,7 @@
 }
 
 .galleryHeader {
-  margin-top: -8rem;
+  margin-top: -6rem;
   font-size: 4.5rem;
   color: theme-colors($light-theme, "secondary"); 
   margin-bottom: 1rem;
@@ -23,6 +24,7 @@
 }
 
 .gallery {
+  width: 90vw;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -39,7 +41,7 @@
   transition: transform 0.3s ease;
 
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.4);
   }
 
   img {
@@ -53,6 +55,6 @@
   width: 45vw;
   height: 0.5rem;  
   background-color: theme-colors($light-theme, "secondary"); 
-  margin-bottom: 4rem; 
+  margin-bottom: 5rem; 
   z-index: -100;
 }

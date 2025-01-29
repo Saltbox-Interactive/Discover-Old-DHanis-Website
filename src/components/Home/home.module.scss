@@ -16,12 +16,12 @@
   margin-bottom: 5rem;
 }
 
-.video {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  z-index: -10;
-}
+// .backgroundImgContainer {
+//   max-width: 100vw;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
 
 .pageFormatting{
   padding: 0;
@@ -33,15 +33,11 @@
   text-decoration: none;
 }
 
-.backgroundImg{
+.backgroundImg {
   height: 100vh;
-  width: 100vw;
-  position: absolute;
   z-index: -10;
-  background-size: cover;   
-  background-position: center; 
-  background-repeat: no-repeat; 
 }
+
 
 .title {
   text-align: center;
@@ -65,15 +61,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 420px;
   color: #191922;
-  font-family: 'Cardo', serif; /* Ensure Cardo font for download text */
+  font-family: 'Cardo', serif; 
 }
 
 /* In your CSS file */
 .brownbutton {
   background-color: theme-colors($light-theme, "primary");
   border-color: theme-colors($light-theme, "primary");
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
 }
 
 .logo {
@@ -87,16 +87,6 @@
 .footer{
   position: absolute;
   bottom: 0;
-}
-
-.imageBackground {
-  background-color: beige; /* Optional */
-  background-image: url('/assets/background_pic.jpg'); /* Ensure correct path */
-  background-size: cover; /* Ensures the image covers the entire container */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents repeating the image */
-  width: 100vw; /* 100% of the viewport width */
-  height: 100vh; /* 100% of the viewport height */
 }
 
 

@@ -12,13 +12,11 @@ export default function Home() {
     <div className={styles.pageFormatting}>
       <Navbar />
       <div className={styles.container} id='home'> 
-        <div className={styles.video}>
-          <img
-            className={styles.backgroundImg}
-            src="https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/background_pic.jpg"
-            alt="Background"
-          />
-        </div>
+        <img
+          className={styles.backgroundImg}
+          src="https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/background_pic.jpg"
+          alt="Background"
+        />
         <Head>
             <title>Discover Old D'Hanis</title>
             <link rel="icon" href="/favicon.ico" />
