@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from '../components/Gallery/gallery.module.scss';
 
 const images = [
-  { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/dod-screenshot-1.png', alt: 'Gallery image 2' },
+  { src: '/assets/dod-screenshot-1.png', alt: 'Gallery image 2' },
   { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/23-test-image-fix/public/assets/dod-screenshot-2.png', alt: 'Gallery image 2' },
   { src: '/assets/dod-screenshot-3.svg', alt: 'Gallery image 3' },
   { src: '/assets/dod-screenshot-5.svg', alt: 'Gallery image 5' },
@@ -20,7 +20,13 @@ const Gallery = () => {
         <div className={styles.gallery}>
         {images.map((image, index) => (
             <div className={styles.galleryItem} key={index}>
-            <Image src={image.src} alt={image.alt} layout="intrinsic" width={300} height={300} />
+            <Image 
+              unoptimized
+              src={image.src} 
+              alt={image.alt} 
+              layout="intrinsic"
+              width={300} 
+              height={300} />
             </div>
         ))}
         </div>
