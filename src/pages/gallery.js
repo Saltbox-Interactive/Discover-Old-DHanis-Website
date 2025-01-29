@@ -7,7 +7,7 @@ import styles from '../components/Gallery/gallery.module.scss';
   
   Steps to displaying an image:
     
-    1. Upload images as normal in the public/assets folder
+    1. Upload images as normal in the public/assets folder and push the changes so the remote repo is updated.
 
     2. Copy the following link and put the name of the file after in the src reference.
       - https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/ 
