@@ -23,7 +23,7 @@ const Gallery = () => {
             <div className={styles.galleryItem} key={index}>
             <Image 
               // IMPORTANT: If you plan on using .png, make sure you use the unoptimzied tag in the Image object, example below!  
-              unoptimized
+              // unoptimized
               src={image.src} 
               alt={image.alt} 
               layout="intrinsic"
