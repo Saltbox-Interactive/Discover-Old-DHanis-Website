@@ -40,8 +40,9 @@ const Gallery = () => {
               src={image.src} 
               alt={image.alt} 
               layout="intrinsic"
-              width={300} 
-              height={300} />
+              // It looks like these values for height and width scale the resolution. If you set these higher, resolution will be better and vice versa
+              width={900} 
+              height={900} />
             </div>
         ))}
         </div>
