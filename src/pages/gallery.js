@@ -2,12 +2,13 @@ import Image from 'next/image';
 import styles from '../components/Gallery/gallery.module.scss';
 
 const images = [
-  { src: '/assets/dod-screenshot-1.png', alt: 'Gallery image 2' },
-  { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/23-test-image-fix/public/assets/dod-screenshot-2.png', alt: 'Gallery image 2' },
-  { src: '/assets/dod-screenshot-3.svg', alt: 'Gallery image 3' },
-  { src: '/assets/dod-screenshot-5.svg', alt: 'Gallery image 5' },
-  { src: '/assets/dod-screenshot-6.svg', alt: 'Gallery image 6' },
-  { src: '/assets/dod-screenshot-7.svg', alt: 'Gallery image 7' },
+  { src: '/assets/dod-screenshot-1.png', alt: 'Gallery image 1' },
+  { src: '/assets/dod-screenshot-2.png', alt: 'Gallery image 2' },
+  { src: '/assets/dod-screenshot-3.png', alt: 'Gallery image 3' },
+  { src: '/assets/dod-screenshot-4.png', alt: 'Gallery image 4' },
+  { src: '/assets/dod-screenshot-5.png', alt: 'Gallery image 5' },
+  { src: '/assets/dod-screenshot-6.png', alt: 'Gallery image 6' },
+  { src: '/assets/dod-screenshot-7.png', alt: 'Gallery image 7' },
 ];
 
 const Gallery = () => {
