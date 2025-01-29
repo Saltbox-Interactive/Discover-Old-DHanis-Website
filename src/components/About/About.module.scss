@@ -1,4 +1,4 @@
-@import './theme-variables.scss';
+@import '../../styles/theme-variables';
 
 .container {
   height: 220vh;
@@ -41,7 +41,7 @@
 
 .imageIcon {
   max-width: 15rem;  /* Set a maximum width */
-  max-height: rem; /* Set a maximum height */
+  max-height: 15rem; /* Set a maximum height */
   width: 100%;       /* Ensure the image takes up available space but does not exceed max width */
   height: auto;      /* Maintain aspect ratio */
 }

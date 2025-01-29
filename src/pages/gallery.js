@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from '../styles/gallery.module.scss';
+import styles from '../components/Gallery/gallery.module.scss';
 
 const images = [
   { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/dod-screenshot-1.png', alt: 'Gallery image 2' },
