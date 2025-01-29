@@ -19,7 +19,7 @@ import styles from '../components/Gallery/gallery.module.scss';
 
     Only issue with this method is image loading is a bit slow, will try to investigate this page and fix the issue later
     https://nextjs.org/docs/pages/building-your-application/optimizing/images  
-    
+
 */
 
 const images = [
@@ -43,7 +43,7 @@ const Gallery = () => {
         {images.map((image, index) => (
             <div className={styles.galleryItem} key={index}>
             <Image 
-              unoptimized
+              // unoptimized
               src={image.src} 
               alt={image.alt} 
               layout="intrinsic"
