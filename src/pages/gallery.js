@@ -3,7 +3,7 @@ import styles from '../components/Gallery/gallery.module.scss';
 
 const images = [
   { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/dod-screenshot-1.png', alt: 'Gallery image 2' },
-  { src: '/assets/dod-screenshot-2.svg', alt: 'Gallery image 2' },
+  { src: 'https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/23-test-image-fix/public/assets/dod-screenshot-2.png', alt: 'Gallery image 2' },
   { src: '/assets/dod-screenshot-3.svg', alt: 'Gallery image 3' },
   { src: '/assets/dod-screenshot-5.svg', alt: 'Gallery image 5' },
   { src: '/assets/dod-screenshot-6.svg', alt: 'Gallery image 6' },
