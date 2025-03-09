@@ -94,3 +94,33 @@
 .emailSection a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+
+
+@media (max-width: 600px) {
+
+    .footerContainer {
+        height: 25rem;
+    }
+
+    .emailSectionText {
+        font-size: 110%;
+    }
+
+    .socials{
+        margin-top: 5rem;
+    }
+
+    .socialText {
+        width: 100vw;
+        left: 0;
+        position: absolute;
+        margin-top: -3rem;
+        margin-bottom: -5rem;
+    }
+
+    .columnFooter {
+        margin-top: -6rem;
+        visibility: hidden;
+    }
+  }
