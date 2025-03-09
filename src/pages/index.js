@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <div className={styles.pageFormatting}>
       <Navbar />
+      
       <div className={styles.container} id='home'> 
         <img
           className={styles.backgroundImg}

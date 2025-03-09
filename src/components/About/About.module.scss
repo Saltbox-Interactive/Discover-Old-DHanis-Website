@@ -74,3 +74,34 @@
   font-size: 1.2rem;
   font-family: 'Cardo', serif;  /* Apply Cardo font here */
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding-bottom: 235rem;
+  }
+
+  .floatLeft {
+    float: none;
+    width: 90vw;
+    margin-left: 0;
+    padding-right: 1rem;
+    margin-top: 2rem;
+  }
+
+  .floatRight {
+    float: none;
+    width: 90vw;
+    margin-right: 0;
+    padding-right: 1rem;
+    margin-top: 2rem;
+
+  }
+
+  .infoSection {
+    padding-bottom: 0;
+  }
+
+  .title {
+    margin-bottom: 4rem;
+  }
+}
