@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Cardo', serif; /* Apply Cardo font globally */
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, strong, em, u, i, blockquote, li, dt, dd, a {

@@ -103,3 +103,17 @@
   margin: 20px 0 10px;
   font-size: 1.05rem;
 }
+
+@media (max-width: 600px) {
+  .role {
+    max-width: 90vw;
+  }
+
+  .contactInfo {
+    max-width: 90vw;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+  }
+  
+}

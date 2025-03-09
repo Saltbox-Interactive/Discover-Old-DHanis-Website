@@ -16,7 +16,7 @@ const Footer = () => {
             />
             </div>
                 <div className={styles.socials}> 
-                    <h3>Learn more about our project</h3>
+                    <h3 className={styles.socialText}>Learn more about our project</h3>
                     <div className={styles.icons}>
                         <a href="https://store.steampowered.com/app/3140860/Discover_Old_DHanis/" target="_blank" rel="noopener noreferrer">
                             <Image 
@@ -52,7 +52,7 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className={styles.emailSection}>
-                        <h3>Email us at <a href="mailto:discoverolddhanis@gmail.com">discoverolddhanis@gmail.com</a></h3>
+                        <h3 className={styles.emailSectionText}>Email us at <a href="mailto:discoverolddhanis@gmail.com">discoverolddhanis@gmail.com</a></h3>
                      </div>
                 </div>
                 <div className={styles.columnFooter}>
