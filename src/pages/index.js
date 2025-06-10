@@ -38,14 +38,6 @@ export default function Home() {
                 Play on Steam
               </Button>
             </a>
-            <a 
-              href="https://raw.githubusercontent.com/Saltbox-Interactive/Discover-Old-DHanis-Website/production/public/assets/flyer.jpg"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.flyerButton}
-            >
-              View Event (June 13, 2025)
-            </a>
           </div>
         </main>
       </div>
