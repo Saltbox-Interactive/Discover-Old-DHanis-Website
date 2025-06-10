@@ -39,7 +39,7 @@ export default function Home() {
               </Button>
             </a>
             <a 
-              href="/assets/flyer.jpg"
+              href="https://media.githubusercontent.com/media/Saltbox-Interactive/Discover-Old-DHanis-Website/refs/heads/main/public/assets/flyer.jpg"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.flyerButton}
